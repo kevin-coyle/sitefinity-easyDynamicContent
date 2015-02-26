@@ -13,7 +13,7 @@ This static helper class will provide an easy method to grab content from dyanmi
 To get all live content from the custom content type "Resource":
 
 ````c#
-EasyDynamicContent.GetAllContentByDyanamicType("Telerik.Sitefinity.DynamicTypes.Model.Resources.Resource");
+EasyDynamicContent.GetAllContentByType("Telerik.Sitefinity.DynamicTypes.Model.Resources.Resource");
 ````
 
 To get all content from the custom content type "Resource":
