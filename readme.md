@@ -12,18 +12,18 @@ This static helper class will provide an easy method to grab content from dyanmi
 
 To get all live content from the custom content type "Resource":
 
-````
+````c#
 EasyDynamicContent.GetAllContentByDyanamicType("Telerik.Sitefinity.DynamicTypes.Model.Resources.Resource");
 ````
 
 To get all content from the custom content type "Resource":
 
-````
+````c#
 EasyDynamicContent.GetAllContentByDyanamicType("Telerik.Sitefinity.DynamicTypes.Model.Resources.Resource", false);
 ````
 To get all content from the custom content type "Resource" with flat taxonomy term "test" in the field categories:
 
-````
+````c#
 EasyDynamicContent.GetContentByFlatTaxonomyTerm("Telerik.Sitefinity.DynamicTypes.Model.Resources.Resource", "test", "categories");
 ````
 
