@@ -21,3 +21,10 @@ To get all content from the custom content type "Resource":
 ````
 EasyDynamicContent.GetAllContentByDyanamicType("Telerik.Sitefinity.DynamicTypes.Model.Resources.Resource", false);
 ````
+To get all content from the custom content type "Resource" with flat taxonomy term "test" in the field categories:
+
+````
+EasyDynamicContent.GetContentByFlatTaxonomyTerm("Telerik.Sitefinity.DynamicTypes.Model.Resources.Resource", "test", "categories");
+````
+
+If the taxonomy term is not found it will throw an exception
