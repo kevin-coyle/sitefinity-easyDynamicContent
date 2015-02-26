@@ -5,7 +5,7 @@ This static helper class will provide an easy method to grab content from dyanmi
 
 ## Installation ##
 
-1. Clone the repo into your custom directory for application
+1. Clone the repo into your custom directory for your application
 2. Change the namespace to where you have put the class
 
 ## Usage ##
