@@ -3,4 +3,21 @@
 Grabbing content from Dynamic Content Modules in sitefinity is needlessly verbose.
 This static helper class will provide an easy method to grab content from dyanmic modules.
 
+## Installation ##
 
+1. Clone the repo into your custom directory for application
+2. Change the namespace to where you have put the class
+
+## Usage ##
+
+To get all live content from the custom content type "Resource":
+
+````
+EasyDynamicContent.GetAllContentByDyanamicType("Telerik.Sitefinity.DynamicTypes.Model.Resources.Resource");
+````
+
+To get all content from the custom content type "Resource":
+
+````
+EasyDynamicContent.GetAllContentByDyanamicType("Telerik.Sitefinity.DynamicTypes.Model.Resources.Resource", false);
+````
