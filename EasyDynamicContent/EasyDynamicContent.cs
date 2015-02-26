@@ -23,7 +23,7 @@ namespace SitefinityWebApp.Custom.Helpers
 {
     public static class EasyDynamicContent
     {
-        public static IQueryable<DynamicContent> GetAllContentByDyanamicType(String contentType, Boolean justLive = true)
+        public static IQueryable<DynamicContent> GetAllContentByType(String contentType, Boolean justLive = true)
         {
             //Just use an empty string for the provider.
             var providerName = String.Empty;
