@@ -19,7 +19,7 @@ EasyDynamicContent.GetAllContentByType("Telerik.Sitefinity.DynamicTypes.Model.Re
 To get all content from the custom content type "Resource":
 
 ````c#
-EasyDynamicContent.GetAllContentByDyanamicType("Telerik.Sitefinity.DynamicTypes.Model.Resources.Resource", false);
+EasyDynamicContent.GetAllContentByType("Telerik.Sitefinity.DynamicTypes.Model.Resources.Resource", false);
 ````
 To get all content from the custom content type "Resource" with flat taxonomy term "test" in the field categories:
 
